@@ -3,7 +3,7 @@
 
 ## Project Title
 
-**Write the full title of your project here**
+AI-Based Smart Entry Monitoring System using ID Card Detection and Face Recognition
 
 ---
 
@@ -11,30 +11,27 @@
 
 | Sr. No. | Name of Student | Roll No. | Branch | Email ID |
 |---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-| 4 |  |  |  |  |
+| 1 |Snehal Lohana  | 17 | Automation and Robotics  | 2023.snehal.lohana@ves.ac.in |
+| 2 |Eshika Makhija | 18 | Automation and Robotics  | 2023.eshika.makhija@ves.ac.in |
+| 3 |Ayush Harwande | 07 | Automation and robotics  | 2022.ayush.harwande@ves.ac.in |
+| 4 |Shiv Maurya  | 20   | Automation and Robotics  | 2022.shiv.maurya@ves.ac.in  |
 
 ---
 
 ## Guide Details
 
-**Project Guide:**  
+**Project Guide: Deepti Khimani**  
 **Department:** Automation and Robotics  
 **Institute:** VESIT, Mumbai  
 
 ---
 
+
 ## Problem Statement
 
-Write a clear problem statement here.
+Educational institutions often rely on security personnel to manually verify whether students are wearing their identity (ID) cards while entering the campus. This process is time-consuming, prone to human error, and cannot accurately detect if a student is using another person's ID card or if an unauthorized individual enters the premises. The absence of an automated monitoring system also makes it difficult to maintain digital entry records and analyze campus access patterns.
 
-Example:
-
-> The aim of this project is to design and develop a system that solves the problem of __________ by using __________ technology.
-
----
+The aim of this project is to develop an AI-Based Smart Entry Monitoring System that uses computer vision and face recognition to detect students at the entrance, verify whether they are wearing their own ID cards, identify unauthorized entries, and automatically maintain entry records. The system will also generate weekly reports and analytics to improve campus security and administrative efficiency.
 
 ## Abstract
 
