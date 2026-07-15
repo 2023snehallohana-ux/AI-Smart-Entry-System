@@ -35,68 +35,59 @@ The aim of this project is to develop an AI-Based Smart Entry Monitoring System 
 
 ## Abstract
 
-Write a short summary of the project in 150–250 words.
+Educational institutions often rely on manual verification of student identity cards at campus entrances, which is time-consuming, prone to human error, and inefficient in maintaining accurate entry records. Security personnel may find it difficult to identify students who are not wearing their ID cards, are using another student's ID card, or are unauthorized visitors entering the campus.
 
-The abstract should include:
+This project proposes an **AI-Based Smart Entry Monitoring System using ID Card Detection and Face Recognition** to automate the campus entry verification process. A camera installed at the college entrance captures the image of every individual entering the premises. Using Computer Vision, Artificial Intelligence, and Face Recognition techniques, the system detects the presence of an ID card and verifies the student's identity by comparing the captured face with a registered student database. The system records every entry, identifies students without ID cards, detects identity mismatches and unauthorized visitors, and stores all records in a centralized database.
 
-- Background of the problem
-- Proposed solution
-- Technology used
-- Expected outcome
-- Application area
-
----
+The stored data is further used to generate daily and weekly reports that provide insights into campus access patterns, the number of valid student entries, students without ID cards, and outsider entries. The proposed system aims to improve campus security, reduce manual effort, maintain accurate digital records, and provide an efficient and scalable smart entry monitoring solution for educational institutions.
 
 ## Objectives
 
-1. To study the existing problem and available solutions.
-2. To design a suitable hardware/software/system architecture.
-3. To implement the proposed solution.
-4. To test and validate the system.
-5. To document and publish the project work.
+The primary objectives of the proposed system are:
 
----
+- To develop an AI-based smart entry monitoring system for educational institutions.
+- To detect whether students are wearing their identity (ID) cards while entering the campus.
+- To recognize and verify the identity of students using facial recognition technology.
+- To identify unauthorized individuals and detect cases where a student is using another student's ID card.
+- To maintain a secure digital database containing student entry records.
+- To generate daily and weekly reports showing the number of student entries, outsider entries, students without ID cards, and identity mismatches.
+- To reduce manual verification efforts and improve the overall security and efficiency of the campus entry system.
 
 ## Scope of the Project
 
-Mention what the project will cover.
+The scope of this project is to develop an AI-Based Smart Entry Monitoring System for educational institutions that automates the student entry verification process. The system will use Computer Vision and Artificial Intelligence to detect students entering the campus, identify whether they are wearing an ID card, and verify their identity using facial recognition.
 
-Example:
+The system will automatically mark attendance for students whose identity has been successfully verified. It will also maintain a digital database containing student details, entry time, attendance records, and security logs. In cases where a student is not wearing an ID card, uses another student's ID card, or an unknown person attempts to enter the campus, the system will record the event and generate an alert for further verification.
 
-- Design and development of prototype
-- Hardware implementation
-- Software/mobile/web interface
-- Data collection and testing
-- Performance analysis
-
----
+Additionally, the system will generate daily and weekly reports showing attendance statistics, valid student entries, students without ID cards, identity mismatches, and outsider entries. Although the project is designed as a prototype for educational institutions, it can be extended in the future to support multiple campus entrances, cloud-based databases, mobile notifications, and integration with existing college management systems.
 
 ## Existing System
 
-Describe the currently available system or method.
+Currently, most educational institutions rely on security personnel to manually verify student identity cards at the college entrance. Security guards visually check whether students are wearing their ID cards before allowing them to enter the campus. In many cases, attendance is recorded separately through biometric systems, RFID cards, or manually in classrooms, making the entire process time-consuming and inefficient.
 
-Mention its limitations:
+Since the verification process depends on human observation, it is difficult to identify students using another student's ID card or detect unauthorized individuals entering the campus. Manual verification also does not maintain centralized digital records of campus entry, making it difficult to monitor security incidents or analyze entry patterns.
 
-- High cost
-- Low accuracy
-- Manual process
-- Lack of automation
-- Poor scalability
-- Limited accessibility
+### Limitations
+
+- Manual verification is time-consuming, especially during peak college hours.
+- Human errors may occur while checking student identities.
+- No automated verification of whether the ID card belongs to the student.
+- Attendance and entry records are maintained separately.
+- Difficult to identify unauthorized visitors entering the campus.
+- No centralized database for maintaining entry history and security records.
+- Limited reporting and analytics for college administration.
 
 ---
 
 ## Proposed System
 
-Describe your proposed solution.
+The proposed system is an AI-Based Smart Entry Monitoring System designed to automate student entry verification, attendance management, and campus security. A camera installed at the college entrance continuously monitors individuals entering the campus.
 
-Include:
+When a person approaches the entrance, the system first detects the presence of a human using computer vision techniques. It then checks whether an ID card is visible. If an ID card is detected, the student's face is captured and compared with the registered student database using facial recognition technology. The system also verifies whether the detected ID card belongs to the recognized student by matching the student information stored in the database.
 
-- Main idea
-- How it works
-- Major components
-- Expected benefits
+If the student's identity is successfully verified, the system automatically records the student's entry and marks attendance. If the student is not wearing an ID card, is using another student's ID card, or is not found in the database, the system records the event as an exception and generates an alert for the security staff.
 
+All entry records are securely stored in a centralized database. The system also generates daily and weekly reports that include student attendance, valid entries, students without ID cards, identity mismatches, outsider entries, and other security-related statistics. These reports help the college administration improve campus security and monitor student attendance efficiently.
 ---
 
 ## System Architecture
