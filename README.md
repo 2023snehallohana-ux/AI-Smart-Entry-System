@@ -5,6 +5,8 @@
 
 AI-Based Smart Entry Monitoring System using ID Card Detection and Face Recognition
 
+https://youtu.be/wXiNR2xtQBA
+
 ---
 
 ## Team Details
