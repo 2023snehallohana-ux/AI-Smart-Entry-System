@@ -106,85 +106,131 @@ Briefly explain the architecture.
 
 ## Hardware Requirements
 
-| Sr. No. | Component | Specification | Quantity | Purpose |
-| ------- | --------- | ------------- | -------- | ------- |
-| 1       |           |               |          |         |
-| 2       |           |               |          |         |
-| 3       |           |               |          |         |
-| 4       |           |               |          |         |
+## Hardware Requirements
 
+| Sr. No. | Component | Specification | Quantity | Purpose |
+|---------|-----------|---------------|----------|---------|
+| 1 | Laptop / Computer | Intel Core i5 or equivalent, 8GB RAM | 1 | To run Python programs and AI models |
+| 2 | Webcam | HD Webcam, 720p or above | 1 | To capture live images and video |
+| 3 | Student ID Card | College-issued identity card | As required | For ID card detection and verification |
+| 4 | External/IP Camera | Network-enabled camera, 1080p | 1 | For final entrance monitoring setup |
 ---
 
 ## Software Requirements
 
-| Sr. No. | Software / Tool | Version | Purpose |
-| ------- | --------------- | ------- | ------- |
-| 1       |                 |         |         |
-| 2       |                 |         |         |
-| 3       |                 |         |         |
+## Software Requirements
 
+## Software Requirements
+
+| Sr. No. | Software / Tool | Version | Purpose |
+|---------|-----------------|---------|---------|
+| 1 | Python | 3.x | To develop and execute the AI-based application |
+| 2 | OpenCV | 4.x | For image processing, face detection, and camera integration |
+| 3 | face_recognition | Latest compatible version | For face encoding and face recognition using a pre-trained model |
+| 4 | Visual Studio Code | Latest | For writing, editing, and managing Python code |
 ---
 
 ## Technologies Used
 
 Mention technologies used in the project.
 
-Example:
+## Technologies Used
 
-* Embedded C / Python / JavaScript
-* Arduino / STM32 / ESP32 / Raspberry Pi
-* ROS / MATLAB / Simulink
-* Machine Learning / Computer Vision
-* IoT / Cloud / Mobile App
-* PCB Design / CAD Design
+The following technologies are used in our AI-Based Smart Entry Monitoring System:
 
+- **Python:** Core programming language for system development.
+- **OpenCV:** Image processing, face detection, and webcam integration.
+- **Dlib:** Facial feature extraction and face encoding.
+- **Face Recognition:** Face matching using a pre-trained face-recognition model.
+- **Pandas:** Managing student records and entry data.
+- **NumPy:** Numerical operations and image data processing.
+- **CSV:** Storing registered student information.
+- **Visual Studio Code:** Development environment for writing and managing code.
+- **Git & GitHub:** Version control and project documentation.
 ---
 
 ## Methodology
 
 Explain the step-by-step approach.
 
-1. Literature survey
-2. Problem identification
-3. Requirement analysis
-4. System design
-5. Hardware/software development
-6. Integration
-7. Testing and validation
-8. Documentation and publication
+## Methodology
 
+Our project follows a systematic approach to develop an AI-Based Smart Entry Monitoring System using ID Card Detection and Face Recognition.
+
+1. **Literature Survey**
+   - Study existing face recognition, ID card detection, and smart entry monitoring systems.
+
+2. **Problem Identification**
+   - Identify challenges in manual entry monitoring, identity verification, and maintaining entry records.
+
+3. **Requirement Analysis**
+   - Define hardware, software, dataset, and functional requirements of the system.
+
+4. **System Design**
+   - Design the system workflow including camera input, ID detection, face recognition, verification, and entry logging.
+
+5. **Software Development**
+   - Set up Python, OpenCV, and face-recognition libraries.
+   - Prepare the student dataset and generate facial encodings.
+
+6. **Module Development**
+   - Develop face detection, face recognition, and ID card detection modules.
+
+7. **System Integration**
+   - Integrate ID card detection with face recognition for student identity verification.
+
+8. **Testing and Validation**
+   - Test the system using registered and unknown individuals to evaluate detection and recognition performance.
+
+9. **Database and Dashboard Development**
+   - Implement automatic date/time entry logging and develop a monitoring dashboard.
+
+10. **Documentation and Publication**
+    - Maintain project documentation, record development progress, and prepare the final project report.
 ---
 
 ## Project Timeline
 
-| Week / Month | Task Planned          | Status                            |
-| ------------ | --------------------- | --------------------------------- |
-| Week 1       | Problem finalization  | Pending / In Progress / Completed |
-| Week 2       | Literature survey     |                                   |
-| Week 3       | Requirement analysis  |                                   |
-| Week 4       | System design         |                                   |
-| Week 5       | Prototype development |                                   |
-| Week 6       | Testing               |                                   |
-| Week 7       | Documentation         |                                   |
-| Week 8       | Paper writing         |                                   |
+## Project Timeline
 
+| Week / Month | Task Planned | Status |
+|--------------|--------------|--------|
+| Week 1 | Problem finalization | Completed |
+| Week 2 | Literature survey | Completed |
+| Week 3 | Requirement analysis | Completed |
+| Week 4 | System design and workflow planning | Completed |
+| Week 5 | Python, OpenCV, and VS Code setup | Completed |
+| Week 6 | Student dataset preparation and CSV database creation | Completed |
+| Week 7 | Face detection and face encoding generation | Completed |
+| Week 8 | Live webcam face recognition | Completed |
+| Week 9 | ID card detection module development | In Progress |
+| Week 10 | Face + ID verification | Pending |
+| Week 11 | Automatic date/time entry logging | Pending |
+| Week 12 | Entry database and monitoring dashboard | Pending |
+| Week 13 | External/IP camera integration | Pending |
+| Week 14 | System integration and testing | Pending |
+| Week 15 | Documentation and project report | Pending |
+| Week 16 | Final presentation and project demonstration | Pending |
 ---
 
 ## Weekly Progress Updates
 
 Students must update this section every week.
 
-| Week   | Date | Work Completed | Work Planned for Next Week | Issues / Challenges | GitHub Commit Link |
-| ------ | ---- | -------------- | -------------------------- | ------------------- | ------------------ |
-| Week 1 |      |                |                            |                     |                    |
-| Week 2 |      |                |                            |                     |                    |
-| Week 3 |      |                |                            |                     |                    |
-| Week 4 |      |                |                            |                     |                    |
-| Week 5 |      |                |                            |                     |                    |
-| Week 6 |      |                |                            |                     |                    |
-| Week 7 |      |                |                            |                     |                    |
-| Week 8 |      |                |                            |                     |                    |
+## Weekly Progress Updates
 
+This section records the weekly progress, completed tasks, upcoming work, and challenges faced during project development.
+
+| Week | Date | Work Completed | Work Planned for Next Week | Issues / Challenges | GitHub Commit Link |
+|------|------|----------------|----------------------------|---------------------|--------------------|
+| Week 1 | — | Finalized project title and discussed the problem statement. | Conduct literature survey on smart entry monitoring systems. | — | — |
+| Week 2 | — | Studied existing face recognition and ID card detection systems. | Analyze project requirements and required technologies. | Identifying suitable detection approaches. | — |
+| Week 3 | — | Analyzed hardware, software, and functional requirements. | Design the system workflow and architecture. | Defining the verification process. | — |
+| Week 4 | — | Designed the proposed system pipeline and workflow. | Set up Python, VS Code, and OpenCV. | — | — |
+| Week 5 | — | Completed Python, VS Code, and OpenCV setup. Tested webcam functionality. | Prepare the student dataset and create the student database. | — | — |
+| Week 6 | — | Prepared 21 student images and created students.csv. | Implement face detection and generate facial encodings. | Limited dataset availability. | — |
+| Week 7 | — | Successfully tested face detection and generated facial encodings using a pre-trained model. | Integrate the face-recognition model with the live webcam. | Ensuring proper face encoding and matching. | — |
+| Week 8 | — | Loaded all 21 student images into the face database and completed live face recognition testing. | Develop the ID card detection module. | Dataset currently covers 21 out of 67 target students. | — |
 ---
 
 ## Design Files
@@ -221,27 +267,154 @@ Add flowchart image here.
 
 ### Algorithm
 
-1. Start
-2. Initialize the system
-3. Read input from sensors/user
-4. Process the data
-5. Generate output/control action
-6. Display/store/transmit result
-7. Stop
+## Algorithm
+
+### AI-Based Smart Entry Monitoring System
+
+1. **Start**
+2. Initialize the camera, face-recognition model, and student database.
+3. Capture live video frames from the camera.
+4. Detect faces and ID cards in the captured frame.
+5. Extract facial features and generate face encodings.
+6. Compare the detected face with registered student face encodings.
+7. Verify whether the detected ID card matches the recognized student.
+8. If both face and ID are valid:
+   - Mark the entry as valid.
+   - Record the student's name, date, and exact entry time.
+9. If the face or ID is invalid:
+   - Mark the entry as invalid or identify the person as unknown.
+   - Generate an alert if required.
+10. Store entry records in the database.
+11. Display entry details on the monitoring dashboard.
+12. Repeat the process for the next person.
+13. **Stop**
 
 ---
 
 ## Implementation Details
 
-Explain the actual implementation of the project.
+## Implementation Details
+
+Our project is being developed using Python and computer vision libraries to create an AI-based smart entry monitoring system.
+
+### 1. Development Environment Setup
+- Installed and configured Python and Visual Studio Code.
+- Installed OpenCV and required face-recognition libraries.
+- Tested the webcam for live image and video capture.
+
+### 2. Student Dataset Preparation
+- Collected photographs of registered students.
+- Prepared a dataset containing 21 student images out of the target 67 students.
+- Created a `students.csv` file to store student identification details.
+
+### 3. Face Detection and Recognition
+- Implemented face detection using OpenCV.
+- Integrated a pre-trained face-recognition model.
+- Generated facial encodings for registered students.
+- Loaded all 21 available student images into the face database.
+- Implemented live face recognition through the webcam.
+- Successfully tested face recognition using Snehal's face.
+
+### 4. ID Card Detection
+- Currently developing the ID card detection module.
+- The module will be used to identify student ID cards from camera input.
+
+### 5. Planned System Integration
+The following modules are planned for further development:
+- Face and ID card verification.
+- Automatic entry date and exact time recording.
+- Entry database management.
+- Monitoring dashboard.
+- External/IP camera integration.
+
+### 6. Current Implementation Status
+The face recognition module has been successfully implemented and tested using the live webcam. ID card detection and the remaining system integration modules are under development or planned.
 
 ### Hardware Implementation
 
-Write details about connections, components, power supply, sensors, actuators, PCB, enclosure, etc.
+
+Our project currently uses a laptop and webcam as the primary hardware components for developing and testing the AI-Based Smart Entry Monitoring System.
+
+### 1. Laptop / Computer
+- Used as the main processing unit for running Python programs, AI models, and image processing operations.
+- Handles face detection, face recognition, and database operations.
+
+### 2. Webcam
+- Connected to the laptop through a USB interface.
+- Captures live video frames of students entering the monitoring area.
+- Provides real-time input for face detection and recognition.
+
+### 3. Camera Positioning
+- The webcam is positioned to capture clear facial images during testing.
+- Proper camera placement is important for accurate face detection and recognition.
+
+### 4. Power Supply
+- The laptop and webcam are powered through the laptop's power supply and USB connection.
+- No separate external power supply or dedicated PCB is currently required.
+
+### 5. Future Hardware Integration
+The following hardware implementation is planned for the final system:
+- External/IP camera installation at the college entrance.
+- Suitable camera mounting arrangement.
+- Network connectivity for IP camera communication.
+- Integration with the final monitoring setup.
+
+### Current Status                                                            
+
+The laptop and webcam setup, connection, and testing have been completed successfully. The system is currently being developed using the webcam for real-time face recognition. External/IP camera integration is planned for the final hardware setup.
 
 ### Software Implementation
 
-Write details about code structure, libraries used, algorithms, communication protocols, database, app, cloud, etc.
+
+Our project is being developed using Python-based computer vision and artificial intelligence technologies. The software is designed to process live camera input, recognize registered students, and maintain entry records.
+
+### 1. Programming Language and Development Environment
+- Python is used as the primary programming language.
+- Visual Studio Code is used for writing, debugging, and managing the project code.
+- OpenCV is used for image processing and webcam integration.
+
+### 2. Code Structure
+The project is organized into modules for:
+- Camera input and video capture.
+- Face detection and recognition.
+- Student dataset and database management.
+- ID card detection.
+- Entry logging and monitoring dashboard.
+
+### 3. Libraries and Technologies Used
+
+| Library / Technology | Purpose |
+|---|---|
+| Python | Core application development |
+| OpenCV | Image processing and face detection |
+| Dlib | Facial feature extraction and face encoding |
+| face_recognition | Face matching using a pre-trained model |
+| NumPy | Numerical operations and image data processing |
+| Pandas | Managing student records and CSV data |
+| CSV | Storing registered student information |
+
+### 4. Face Recognition Implementation
+- Integrated a pre-trained face-recognition model.
+- Generated facial encodings for registered student images.
+- Stored and loaded facial encodings for recognition.
+- Implemented real-time face recognition using webcam input.
+- Successfully tested face recognition with registered student images.
+
+### 5. Database and Data Management
+- Created a `students.csv` file to store student identification details.
+- Prepared a dataset containing 21 student images.
+- Entry database development is planned for storing student entry history.
+
+### 6. Planned Software Development
+The following modules are planned for further implementation:
+- ID card detection and identification.
+- Face and ID card verification.
+- Automatic date and exact time entry logging.
+- Monitoring dashboard.
+- Integration of all modules into a complete entry monitoring system.
+
+### Current Status
+Python environment setup, OpenCV integration, face detection, facial encoding generation, and live face recognition have been successfully implemented and tested. ID card detection is currently under development, while entry logging and dashboard development are planned.
 
 ---
 
@@ -337,40 +510,62 @@ https://youtu.be/wXiNR2xtQBA
 
 Mention real-world applications of the project.
 
-1.
-2.
-3.
-4.
+The AI-Based Smart Entry Monitoring System can be applied in various real-world environments:
 
+1. **Educational Institutions:** Automated monitoring and verification of students entering college premises.
+
+2. **Corporate Offices:** Employee identity verification and secure entry monitoring.
+
+3. **Research Laboratories:** Restricting access to authorized personnel and maintaining entry records.
+
+4. **Industrial Facilities:** Monitoring employee access to restricted or sensitive areas.
+
+5. **Libraries and Examination Centers:** Verifying registered individuals and maintaining automated entry logs.
 ---
 
 ## Advantages
 
-1.
-2.
-3.
-4.
+
+1. **Automated Entry Monitoring:** Reduces the need for manual student entry verification.
+
+2. **Improved Security:** Verifies student identity using ID card detection and face recognition.
+
+3. **Accurate Entry Records:** Maintains student entry date and exact time automatically.
+
+4. **Real-Time Identification:** Identifies registered students and detects unknown individuals.
+
+5. **Centralized Monitoring:** Enables organized management and monitoring of entry records through a dashboard.
 
 ---
 
 ## Limitations
 
-1.
-2.
-3.
-4.
+1. **Lighting Conditions:** Poor lighting or shadows may affect face detection and recognition accuracy.
 
+2. **Face Occlusion:** Masks, sunglasses, or partially covered faces may reduce recognition performance.
+
+3. **Limited Dataset:** Currently, the face database contains only 21 student images out of the target 67 students.
+
+4. **Camera Dependency:** System performance depends on camera quality, positioning, and image clarity.
+
+5. **ID Card Detection Challenges:** Different ID card orientations, damaged cards, or unclear images may affect detection accuracy.
 ---
 
 ## Future Scope
 
 Mention possible improvements.
 
-1.
-2.
-3.
-4.
+1. **Advanced ID Card Detection:** Improve ID card detection using advanced AI models for better accuracy under different conditions.
 
+2. **Complete Face + ID Verification:** Integrate face recognition and ID card detection to ensure that the ID card belongs to the detected student.
+
+3. **Cloud-Based Monitoring Dashboard:** Develop a centralized dashboard for real-time monitoring and remote access to entry records.
+
+4. **IP Camera Integration:** Deploy the system using external/IP cameras at multiple college entrances.
+
+5. **Automated Alerts:** Send notifications to administrators when unknown individuals or mismatched identity details are detected.
+
+6. **Scalability:** Expand the system to support more students, multiple entry points, and integration with college management systems.
 ---
 
 ## Research Paper / Publication
