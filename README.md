@@ -15,7 +15,7 @@ https://youtu.be/wXiNR2xtQBA
 |---|---|---|---|---|
 | 1 |Snehal Lohana  | 17 | Automation and Robotics  | 2023.snehal.lohana@ves.ac.in |
 | 2 |Eshika Makhija | 18 | Automation and Robotics  | 2023.eshika.makhija@ves.ac.in |
-| 3 |Ayush Harwande | 07 | Automation and robotics  | 2022.ayush.harwande@ves.ac.in |
+| 3 |Ayush Harwande | 03 | Automation and robotics  | 2022.ayush.harwande@ves.ac.in |
 | 4 |Shiv Maurya  | 20   | Automation and Robotics  | 2022.shiv.maurya@ves.ac.in  |
 
 ---
